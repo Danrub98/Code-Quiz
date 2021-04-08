@@ -1,0 +1,33 @@
+.hide{
+    display: none;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section{
+    text-align: center;
+    display:inline;
+    align-items: center;
+    position: relative;
+}
+
+#user{
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+#startbtn{
+    left: 680px;
+    position: relative;
+}
+
+#lastBtn{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}

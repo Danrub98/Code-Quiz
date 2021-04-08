@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./develop/stylesheet.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button id="highScores"> View Highscores</button>
+            
+
+        </div>
+        <div>
+            <h2 id="timeLeft"></h2>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <h1> Coding Quiz Challenge</h1>
+        </div>
+
+        <p> Try to answer the following code related questions within the time limit. Keep in mind that wrong answers will penalize your
+            scoretime by 10 seconds!
+        </p>
+     
+        <button id="startbtn"> Start Quiz</button>
+
+        <h3 id="highScoreNames"> This are the Highscores!</h2>
+            <h3 id="userNames"> </h2>
+    </section>
+
+    <section id="questionSection" class="hide">
+        <div id="questionDisplayed"> Question:</div>
+        <div id="questions"> </div>
+        <div id="answers"></div>
+        <div id="correct"></div>
+    </section>
+
+    <div class= "hide" id="user"> 
+        <h2> Finish</h2>
+        <div> Final Score: <span id="finalScore"> </span></div>
+        <div> Enter your initials</div>
+        <input type="text" id="name" min= "1" max = "2"> <span id= "userNames"></span>
+        <button id="submitBtn"> Submit </button>
+    </div>
+
+    <footer id="lastBtn">
+        <button id="goback"> Go back </button>
+        <button id="erase"> Erase Highscores</button>
+    </footer>
+
+
+    <script src="./develop/script.js"></script>
+
+</body>
+</html>
